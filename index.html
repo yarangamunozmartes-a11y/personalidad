@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detector de Potencial Oculto</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>⚡ Detector de Potencial Oculto ⚡</h1>
+
+    <p>Ingresa tus datos y descubre lo que nadie te ha dicho.</p>
+
+    <input type="text" id="nombre" placeholder="Tu nombre">
+    <input type="number" id="edad" placeholder="Tu edad">
+
+    <button onclick="analizar()">ANALIZAR</button>
+
+    <div id="loading" class="hidden">
+        <div class="loader"></div>
+        <p>Escaneando patrones...</p>
+    </div>
+
+    <div id="resultado" class="hidden"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
